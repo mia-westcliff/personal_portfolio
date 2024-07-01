@@ -1,0 +1,39 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.logo {
+  width: 40px; 
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border-color: #007bff;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}

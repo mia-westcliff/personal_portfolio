@@ -1,0 +1,48 @@
+.projects-container {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .project {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .project img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .project p {
+    margin: 10px 0;
+  }
+  
+  .project a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #6d00a3;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
